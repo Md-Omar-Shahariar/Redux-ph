@@ -11,7 +11,7 @@ const LongForm = () => {
   };
 
   return (
-    <div className="h-screen  flex justify-center items-center overflow-auto">
+    <div className="h-screen w-screen flex justify-center items-center overflow-auto">
       <form
         className="shadow-lg p-10 rounded-md flex flex-wrap gap-3 max-w-3xl justify-between"
         onSubmit={submit}
